@@ -9,7 +9,7 @@ namespace BlackKnight.UniIEX.Examples {
         private void Start() {
             var config = new IEXConfig {
                 IsSandbox = true,
-                Token = "Tsk_b15f64f1950d4835966815504e599540"
+                Token = "Your token Here"
             };
 
             m_Client = new IEXClient(config);
